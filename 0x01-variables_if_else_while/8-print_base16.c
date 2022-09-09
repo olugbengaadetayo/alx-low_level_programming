@@ -6,7 +6,7 @@
 #include <stdio.h>
 
 /**
- * main - Prints hexadecimal string
+ * main - Prints a hexadecimal string
  *
  * Return: Always (Success)
  */
