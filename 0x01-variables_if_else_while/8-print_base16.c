@@ -9,7 +9,7 @@
  * main - prints all the numbers of base 16 in lowercase
  *
  * Return: Always (Success)
- */
+*/
 int main(void)
 {
 	char c;
