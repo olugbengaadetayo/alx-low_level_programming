@@ -6,7 +6,7 @@
 #include <stdio.h>
 
 /**
-/* main - Prints a hexadecimal string
+ * main - 'Prints a hexadecimal string'
  * Description: using the main function
  * this program prints "Programming is positive, zero or negative
  * Return: Always 0 (Success)
