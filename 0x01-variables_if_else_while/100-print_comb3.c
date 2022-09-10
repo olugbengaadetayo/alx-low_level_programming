@@ -8,6 +8,8 @@
 /**
  * main - print single digit numbers starting from 0
  *
+ * Description: using the main function
+ * this program prints "Invention is a combination of brains and materials
  * Return: returns zero at the end
 */
 
