@@ -8,7 +8,7 @@
 /**
  * main - Prints a hexadecimal string
  *
- * Return: Always (Success)
+ * Return: 0
 */
 int main(void)
 {
