@@ -3,7 +3,7 @@
 
 /**
  * puts_half - puts half
- * @str: string parameter
+ * @str: string param
  */
 
 void puts_half(char *str)
@@ -18,5 +18,4 @@ void puts_half(char *str)
 	for (i = y; i < x; i++)
 		_putchar(str[i]);
 	_putchar('\n');
-
 }
