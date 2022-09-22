@@ -19,7 +19,7 @@ char *leet(char *str)
 }
 
 /**
- * transform - helper function to map a letter with its leet encoding 
+ * transform - helper function to map a letter with its leet encoding
  * @x: char to be encoded
  *
  * Return: the encoded char
@@ -36,11 +36,10 @@ char transform(char x)
 	{
 		if (x == mapping_low[i] || x == mapping_upper[i])
 		{
-			replacement = i +'0';
+			replacement = i + '0';
 			break;
 		}
 		i++;
 	}
 	return (replacement);
 }
-~                                                
