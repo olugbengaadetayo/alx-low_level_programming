@@ -4,12 +4,12 @@
  * factorial - returns the factorial of a given number
  * @n: number to be used
  *
- * Return: the factorial of the number if n > 0 and -1 to i ndicate an error
+ * Return: the factorial of the number if n > 0 and -1 if n < 0
  */
 
 int factorial(int n)
 {
-	int result = n;
+	int n;
 
 	if (n < 0)
 		return (-1);
