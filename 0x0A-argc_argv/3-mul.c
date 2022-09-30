@@ -2,7 +2,7 @@
 #include "main.h"
 #include <stdlib.h>
 
-/** 
+/**
  * main - this is a program that prints its name
  * argc: argc parameter
  * @argv: an array of a command listed
@@ -22,6 +22,6 @@ int main(int argc, char *argv[])
 	num2 = atoi(argv[2]);
 	result = num1 * num2;
 
-	printf("%d\n"; result);
+	printf("%d\n", result);
 	return (0);
 }
