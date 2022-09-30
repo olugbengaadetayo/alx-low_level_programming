@@ -1,14 +1,17 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - this is a function to print its name
- * @argc: argc parameter
- * @unused: unused argc
+ * @argc: count argument
+ * @argv: arguments
  * Return: 0 for success
  */
 
-int main(int argc __attribute___((unused)), char *argv[])
+int main(int argc, char *argv[])
 {
-	printf("%s\n", *argv);
-	return (0);
+(void) argc;
+printf("%s\n", *argv[0]);
+
+return (0);
 }
