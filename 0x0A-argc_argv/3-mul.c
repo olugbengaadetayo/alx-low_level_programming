@@ -1,7 +1,9 @@
 #include <stdio.h>
 #include "main.h"
 #include <stdlib.h>
-/** main - this is a program that prints its name
+
+/** 
+ * main - this is a program that prints its name
  * argc: argc parameter
  * @argv: an array of a command listed
  * Return: 0 on success
