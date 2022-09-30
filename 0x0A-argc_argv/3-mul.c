@@ -4,7 +4,7 @@
 
 /**
  * main - this is a program that prints its name
- * argc: argc parameter
+ * @argc: argc parameter
  * @argv: an array of a command listed
  * Return: 0 on success
  */
@@ -22,7 +22,6 @@ int main(int argc, char *argv[])
 	num2 = atoi(argv[2]);
 	result = num1 * num2;
 
-	(void) argc;
 	printf("%d\n", result);
 	return (0);
 }
