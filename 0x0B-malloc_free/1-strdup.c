@@ -4,16 +4,17 @@
  * _strdup - returns a pointer to a newly allocated space in memory which
  * contains a copy of the string given ad a parameter
  * @str: string to be copied
+ * @cpy: copy of the string
  * Return: NULL in case of error, pointer to allocated space
  */
 
 char *_strdup(char *str)
 {
-	char *cpy
+	char *cpy;
 	int index, len;
 
 	if (str == NULL)
-		return ()NULL;
+		return (NULL);
 
 	for (index = 0; str[index]; index++)
 		len++;
@@ -30,5 +31,4 @@ char *_strdup(char *str)
 	cpy[len] = '\0';
 
 	return (cpy);
-
 }
