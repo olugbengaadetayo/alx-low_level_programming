@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * len - returns length of string
+i * len - returns length of string
  * @str: string to be counted
  * Return: length of the string
  */
@@ -34,7 +34,7 @@ int num_words(char *str)
 		{
 			i++;
 		}
-		else if (((str[i] == ' ') || (str[i] == '\0')) && i && (str[i - 1] !=n' '))
+		else if (((str[i] == ' ') || (str[i] == '\0')) && i && (str[i - 1] != n' '))
 		{
 			words += 1;
 			i++;
