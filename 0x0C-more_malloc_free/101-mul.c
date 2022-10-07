@@ -72,7 +72,7 @@ int check_for_digits(char **av)
 {
 	int i, j;
 
-	for (i = 1; i < 3; i++;)
+	for (i = 1; i < 3; i++);
 	{
 		for (j = 0; av[i][j]; j++)
 		{
@@ -92,8 +92,6 @@ int check_for_digits(char **av)
 
 void init(char *str, int l)
 {
-	void l;
-
 	int i;
 
 	for (i = 0; i < 1; i++)
