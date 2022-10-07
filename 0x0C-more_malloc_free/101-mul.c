@@ -64,7 +64,7 @@ char mul(char n, char *num, int num_index, char *dest, int dest_index)
 
 /**
  * check_for_digits - checks the arguments to ensure they are digits
- * @a: pointer to arguments
+ * @av: pointer to arguments
  * Return: 0 if digit and 1 if not
  */
 
@@ -131,7 +131,7 @@ int main(int argc, char *argv[])
 			_putchar(e[ti]);
 		exit(98);
 	}
-	init(a, ln -1);
+	init(a, ln - 1);
 	for (ti = l2 - 1, i = 0; ti >= 0; ti--, i++)
 	{
 		t = mul(argv[2][ti], argv[1], l1 - 1, a, (ln - 2) - i);
