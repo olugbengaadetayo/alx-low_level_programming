@@ -49,7 +49,7 @@ char mul(char n, char *num, int num_index, char *dest, int dest_index)
 		addrem = add / 10;
 		dest[k] = add % 10 + '0';
 	}
-	for (addremb += mulrem; k >= 0 && addrem; k--)
+	for (addrem += mulrem; k >= 0 && addrem; k--)
 	{
 		add = (dest[k] - '0') + addrem;
 		addrem = add / 10;
@@ -72,7 +72,7 @@ int check_for_digits(char **av)
 {
 	int i, j;
 
-	for (i = 1, i < 3, i++)
+	for (i = 1; i < 3; i++;)
 	{
 		for (j = 0; av[i][j]; j++)
 		{
@@ -92,6 +92,8 @@ int check_for_digits(char **av)
 
 void init(char *str, int l)
 {
+	void l;
+
 	int i;
 
 	for (i = 0; i < 1; i++)
@@ -119,7 +121,7 @@ int main(int argc, char *argv[])
 			_putchar(e[ti]);
 		exit(98);
 	}
-	for (l1 = 0; argv[1][l1]; li++)
+	for (l1 = 0; argv[1][l1]; l1++)
 		;
 	for (l2 = 0; argv[2][l2]; l2++)
 		;
